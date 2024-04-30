@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "carrerforge",
+  "version": "1.0.0",
+  "description": "An job portal used or job seekers and empolyee seekers",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "serve": "node main.js"
+  },
+  "author": "karthikeya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
